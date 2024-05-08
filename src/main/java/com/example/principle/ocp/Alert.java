@@ -44,6 +44,8 @@ public class Alert {
         handlers.add(alertHandler);
     }
 
+    //这里还可以进一步丰富，比如各个handler增加priority比较优先级，
+    //增加AlertContext来作为上下文在几个handler中传递信息
     public void adaptiveAlert(ApiInfo apiInfo) {
         for (AlertHandler handler : handlers) {
             handler.adaptiveAlert(apiInfo);

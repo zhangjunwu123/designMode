@@ -1,7 +1,7 @@
 package com.example.singleton;
 
 /**
- * 懒汉：懒加载
+ * 懒汉：懒加载,调用getInstance的时候创建
  */
 public class LazySingleton {
 

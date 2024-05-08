@@ -1,7 +1,12 @@
 package com.example.singleton;
-
+/**
+ * DCL双重校验
+ * */
 public class DclSingleton {
 
+    /**
+     * Volatile 可见，且防止指令重排
+     * */
     private static volatile DclSingleton instance = null;
 
 
