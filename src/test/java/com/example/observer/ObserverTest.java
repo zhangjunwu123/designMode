@@ -1,8 +1,8 @@
 package com.example.observer;
 
-import com.example.observer.customization.multicaster.AppEventMulticaster;
-import com.example.observer.customization.multicaster.SimpleAppEventMulticaster;
-import com.example.observer.customization.publisher.DefaultAppEventPublisher;
+import com.example.behaviorMode.observer.customization.multicaster.AppEventMulticaster;
+import com.example.behaviorMode.observer.customization.multicaster.SimpleAppEventMulticaster;
+import com.example.behaviorMode.observer.customization.publisher.DefaultAppEventPublisher;
 import com.example.observer.entity.Config;
 import com.example.observer.event.ConfigAddEvent;
 import com.example.observer.event.ConfigDeleteEvent;

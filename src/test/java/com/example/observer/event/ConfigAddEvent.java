@@ -1,6 +1,6 @@
 package com.example.observer.event;
 
-import com.example.observer.customization.event.AppEvent;
+import com.example.behaviorMode.observer.customization.event.AppEvent;
 
 public class ConfigAddEvent extends AppEvent {
     private Integer id;
